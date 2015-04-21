@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Calculator</title>
+    <meta charset="UTF-8">
+    <style>
+        table{
+            border: solid black 1px;
+            border-collapse:collapse;
+            width:280px;
+            height:360px;
+        }
+        td{
+            border: solid black 1px;
+            border-collapse:collapse;
+            text-align:center;
+            width:70px;
+            height:60px;
+        }
+        
+        th{
+            height:60px;
+            
+        }
+        #ekran{
+            text-align:right;
+            width:280px;
+            height:60px;
+            padding: 0px;
+            border: 0px;
+            background-color:lightblue;
+            font-weight:bold;
+            font-size:large;
+        }
+        .butoni{
+            width: 100%;
+            height:100%;
+            border: 0px;
+            padding:0px;
+            background-color:lightblue;
+            font-weight:bold;
+            font-size:large;
+            
+        }
+        
+    </style>
+    
+    
+</head>
+<body>
+    
+        <table>
+            <thead>
+                <tr>
+            <th colspan="4"><input type="text" name="result" value="123456" id="ekran" /></th>
+            </tr>
+            </thead>
+
+            <tbody>
+           <tr>
+            <td><input type="button" name="C" value="C" class="butoni" /></td>
+            <td><input type="button" name="&radic;" value=" &radic;" class="butoni" /></td>
+            <td><input type="button" name="%" value="%" class="butoni" /></td>
+            <td><input type="button" name="/" value="/" class="butoni" /></td>
+            </tr>
+            <tr>
+            <td><input type="button" name="1" value="1" class="butoni" /></td>
+            <td><input type="button" name="2" value="2" class="butoni" /></td>
+            <td><input type="button" name="3" value="3" class="butoni" /></td>
+            <td><input type="button" name="+" value="+" class="butoni" /></td>
+           </tr>
+            <tr>
+            <td><input type="button" name="4" value="4" class="butoni" /></td>
+            <td><input type="button" name="5" value="5" class="butoni" /></td>
+            <td><input type="button" name="6" value="6" class="butoni" /></td>
+            <td><input type="button" name="-" value="-" class="butoni" /></td>
+          </tr>
+            <tr>
+            <td><input type="button" name="7" value="7" class="butoni" /></td>
+            <td><input type="button" name="8" value="8" class="butoni" /></td>
+            <td><input type="button" name="9" value="9" class="butoni" /></td>
+            <td><input type="button" name="*" value="*" class="butoni" /></td>
+          </tr>
+           
+            <tr>
+            <td colspan="2"><input type="button" name="0" value="0" class="butoni" /></td>
+            <td><input type="button" name="." value="." class="butoni" /></td>
+            <td><input type="button" name="=" value="=" class="butoni" /></td>
+                </tr>
+                </tbody>
+        </table>
+    </body>
+</html>
