@@ -1,2 +1,2 @@
 # Homework-Telerik
-Homeworks Fron-end
+Homeworks Front-end
