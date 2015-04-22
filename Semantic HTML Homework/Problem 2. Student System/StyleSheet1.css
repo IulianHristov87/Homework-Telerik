@@ -1,0 +1,17 @@
+﻿table,th, td {
+    border: solid 1px black;
+    border-collapse:collapse;
+    text-align:center;
+}
+
+h1{
+    display:inline-block;
+}
+h3{
+    display:inline-block;
+    margin-left:80px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
