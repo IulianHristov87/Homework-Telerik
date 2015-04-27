@@ -25,6 +25,7 @@ li>a{
 }
 ul>li:last-child{
     text-decoration: underline;
+    color:white;
 }
 .current{
     background-color: lightgrey;
