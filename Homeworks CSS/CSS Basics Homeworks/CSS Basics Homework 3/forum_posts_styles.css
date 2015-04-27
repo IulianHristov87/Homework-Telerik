@@ -1,0 +1,40 @@
+﻿body {
+    background-color: grey;
+}
+h1{
+    color: white;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+ul>li{
+    text-align:center;
+    list-style-type:none;
+}
+header{
+    text-align:center;
+    font-size:25px;
+}
+article>header{
+    text-align:left;
+    font-size: 20px;
+}
+li>a{
+    color:white;
+}
+ul>li:last-child{
+    text-decoration: underline;
+}
+.current{
+    background-color: lightgrey;
+}
+body>footer{
+    text-align:center;
+}
+article>p{
+    font-size:15px;
+}
+article>footer>p{
+    font-size:12px;
+}
