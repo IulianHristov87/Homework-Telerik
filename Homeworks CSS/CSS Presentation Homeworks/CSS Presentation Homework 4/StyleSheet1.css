@@ -1,0 +1,158 @@
+﻿*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width;550px;
+    height:700px;
+}
+#glaven{
+    width:470px;
+    height:525px;
+    position:absolute;
+    margin: 5px;
+    border: 1px solid #AECCED;
+    background-color:#AECCED;
+    border-radius: 5px;
+}
+
+#leftheader{
+    width: 45%;
+    height: 40px;
+    float: left;
+    display: inline;
+    margin:13px;
+    position:absolute;
+}
+#rightheader{
+    width: 45%;
+    height: 40px;
+    float: left;
+    display: inline-block;
+    position:relative;
+    text-align: right;
+    margin-left: 255px;
+}
+.wmenu{
+    width:20px;
+    height:20px;
+    font-weight:bolder;
+    margin-left:0px;
+}
+.wmenu1{
+    width:40px;
+    height:20px;
+    font-weight:bolder;
+    background-color: #B44739;
+    
+}
+#calculator{
+    float: left;
+    width:95%;
+    border:1px solid black;
+    margin-left:10px;
+    background-color:#D9E4F1;
+    border-radius: 2px;
+}
+#menu{
+    float:left;
+    display:block;
+    width:99.5%;
+    height:20px;
+    background-color:#D9DFF0;
+    border: 1px solid #D9DFF0;
+}
+ul,li{
+    display:inline-block;
+    margin-left: 5px;
+}
+
+li:first-letter {
+    text-decoration: underline;
+}
+#display{
+    float: left;
+    display: inline-block;
+    width:100%;
+}
+#display>input{
+    width:95%;
+    height:50px;
+    text-align:right;
+    margin-left: 11px;
+    font-size: 25px;
+    font-family: Consolas;
+    color: #000000;
+    background-color:#F3F8FD;
+    border:1px solid grey;
+    border-radius: 5px;
+}
+#binary{
+    width:95%;
+    height:80px;
+    border: 2px solid grey;
+    display:block;
+    margin-top:105px;
+    margin-left:10px;
+    margin-top:80px;
+    border-radius:5px;
+}
+.dqsno{
+    text-align:right;
+    padding-right:10px;
+}
+.centyr{
+    text-align:center;
+}
+.lqvo{
+    padding-left:10px;
+}
+.edno{
+    width:100%;
+}
+.radio {
+    display:inline-block;
+}
+.edno>td{
+    padding-left:10px;
+}
+fieldset{
+    text-align: left;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+#buttons{
+    margin-left: 10px;
+    width:96%;
+    margin-bottom:10px;
+}
+.butoni{
+    width:35px;
+    height:30px;
+    background-color: ;
+    text-align:center;
+    font-size:  larger;
+    text-decoration: solid;
+    border: 1px solid grey;
+    background-color:#E6EDF6;
+    margin-top:5px;
+    border-radius:5px;
+}
+.dve{
+    width:100%;
+    margin-top:10px;
+}
+.neaktivni {
+    box-shadow: none;
+    background-color: transparent;
+}
+.cifri{
+    background-color:#F2F7FB;
+}
+.butoni:hover{
+        border: 1px solid yellow);
+        background: orange;
+        cursor:  pointer;
+}

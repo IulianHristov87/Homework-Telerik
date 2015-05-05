@@ -1,0 +1,12 @@
+﻿div{
+    background-color:black;
+    width:90%;
+    border-radius:100px;
+    border: 2px solid red;
+}
+div>div{
+    background-color: black;
+    border: 1px solid red;
+    border-radius: 100px;
+    width:97%;
+}

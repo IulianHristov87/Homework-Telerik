@@ -1,0 +1,253 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Problem 4. Windows Calculator</title>
+    <meta charset="utf-8" />
+    <link type="text/css" rel="stylesheet" href="StyleSheet1.css" />
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="glaven">
+        <div id="windows_menu">
+            <p id="leftheader">
+                <img src="calcimg.png" alt="calculator" /> &nbsp;Calculator
+            </p>
+            <p id="rightheader">
+                <button class="wmenu" type="button" value="_">_</button>
+                <button class="wmenu" type="button" value="&rang; " disabled>&rang;</button>
+                <button class="wmenu1" type="button" value="X">X</button>
+            </p>
+        </div>
+        <div id="calculator">
+            <div id="menu">
+                <ul>
+                    <li>View</li>
+                    <li>Edit</li>
+                    <li>Help</li>
+                </ul>
+            </div>
+            <div id="display">
+                <input type="text" value="8854455" />
+            </div>
+            <div id="binary">
+                <table class="edno">
+                    <tr>
+                        <td class="centyr">0000</td>
+                        <td class="centyr">0000</td>
+                        <td class="centyr">0000</td>
+                        <td class="centyr">0000</td>
+                        <td class="centyr">0000</td>
+                        <td class="centyr" >0000</td>
+                        <td class="centyr">0000</td>
+                        <td class="centyr">0000</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" class="lqvo">
+                            63
+                        </td>
+                        <td colspan="3" class="lqvo">
+                            47
+                        </td>
+                        <td class="dqsno">
+                            32
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="centyr">0000</td>
+                        <td class="centyr">0000</td>
+                        <td class="centyr">1000</td>
+                        <td class="centyr">0111</td>
+                        <td class="centyr">0001</td>
+                        <td class="centyr">1011</td>
+                        <td class="centyr">1011</td>
+                        <td class="centyr">0111</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" class="lqvo">
+                            31
+                        </td>
+                        <td colspan="3" class="lqvo">
+                            15
+                        </td>
+                        <td class="dqsno">
+                            0
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="buttons">
+                <table class="dve">
+                    <tr>
+                        <td colspan="2" rowspan="3">
+                            <fieldset>
+                                <input type="radio" value="Hex" name="1" class="radio" /> Hex <br /><br />
+                                <input type="radio" value="Dec" name="1" checked class="radio" /> Dec <br /><br />
+                                <input type="radio" value="Oct" name="1" class="radio" /> Oct <br /><br />
+                                <input type="radio" value="Bin" name="1" class="radio"> Bin
+                            </fieldset>
+
+                        </td>
+                        <td class="butoni neaktivni"></td>
+                        <td class="butoni">
+                            Mod
+                        </td>
+                        <td class="butoni neaktivni">
+                            A
+                        </td>
+                        <td class="butoni">
+                            MC
+                        </td>
+                        <td class="butoni">
+                            MR
+                        </td>
+                        <td class="butoni">
+                            MS
+                        </td>
+                        <td class="butoni">
+                            M&#8330;
+                        </td>
+                        <td class="butoni">
+                            M&#8331;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="butoni">
+                            &#8317;
+                        </td>
+                        <td class="butoni">
+                            &#8318;
+                        </td>
+                        <td class="butoni neaktivni">
+                            B
+                        </td>
+                        <td class="butoni">
+                            &#8592;
+                        </td>
+                        <td class="butoni">
+                            CE
+                        </td>
+                        <td class="butoni">
+                            C
+                        </td>
+                        <td class="butoni">
+                            &plusmn;
+                        </td>
+                        <td class="butoni">
+                            &radic;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="butoni">
+                            RoL
+                        </td>
+                        <td class="butoni">
+                            RoR
+                        </td>
+                        <td class="butoni neaktivni">
+                            C
+                        </td>
+                        <td class="butoni cifri">
+                            7
+                        </td>
+                        <td class="butoni cifri">
+                            8
+                        </td>
+                        <td class="butoni cifri">
+                            9
+                        </td>
+                        <td class="butoni">
+                            &#8725;
+                        </td>
+                        <td class="butoni">
+                            %
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" rowspan="3">
+                            <fieldset>
+                                <input type="radio" value="Qword" name="2" checked class="radio" /> Qword<br /><br />
+                                <input type="radio" value="Dword" name="2"  class="radio" /> Dword<br /><br />
+                                <input type="radio" value="Word" name="2" class="radio" /> Word<br /><br />
+                                <input type="radio" value="Byte" name="2" class="radio"> Byte
+                            </fieldset>
+                            
+                        </td>
+                        <td class="butoni">
+                            Or
+                        </td>
+                        <td class="butoni">
+                            Xor
+                        </td>
+                        <td class="butoni neaktivni">
+                            D
+                        </td>
+                        <td class="butoni cifri">
+                            4
+                        </td>
+                        <td class="butoni cifri">
+                            5
+                        </td>
+                        <td class="butoni cifri">
+                            6
+                        </td>
+                        <td class="butoni">
+                            &#8727;
+                        </td>
+                        <td class="butoni">
+                            1 &#8260; x
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="butoni">
+                            Lsh
+                        </td>
+                        <td class="butoni">
+                            Rsh
+                        </td>
+                        <td class="butoni neaktivni">
+                            E
+                        </td>
+                        <td class="butoni cifri">
+                            1
+                        </td>
+                        <td class="butoni cifri">
+                            2
+                        </td>
+                        <td class="butoni cifri">
+                            3
+                        </td>
+                        <td class="butoni">
+                            &minus;
+                        </td>
+                        <td rowspan="2" class="butoni">
+                            =
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="butoni">
+                            Not
+                        </td>
+                        <td class="butoni">
+                            And
+                        </td>
+                        <td class="butoni neaktivni">
+                            F
+                        </td>
+                        <td colspan="2" class="butoni cifri">
+                            0
+                        </td>
+                        <td class="butoni">
+                            &sdot;
+                        </td>
+                        <td class="butoni">
+                            +
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
