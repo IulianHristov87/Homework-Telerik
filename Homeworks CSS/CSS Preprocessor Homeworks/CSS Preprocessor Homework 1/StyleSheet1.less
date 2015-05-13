@@ -1,0 +1,225 @@
+﻿html, body, div, h1, a, form, nav, ul, li, section, article, header, p, footer, aside,strong, em{
+    margin:0;
+    padding:0;
+}
+@def-bg-color: #9215F2;
+@def-font-size: 15px;
+@def-font-family: Arial, sans-serif;
+@def-color: white;
+@nav-from-color: #D191FC;
+.linear-gradient(@from-color, @from-pos, @to-color, @to-pos){
+    background:@from-color; /* Old browsers */
+    background: -moz-linear-gradient(top, @from-color @from-pos, @to-color @to-pos); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@from-pos,@from-color), color-stop(@to-pos,@to-color)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @from-color @from-pos,@to-color @to-pos); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @from-color @from-pos,@to-color @to-pos); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @from-color @from-pos,@to-color @to-pos); /* IE10+ */
+    background: linear-gradient(to bottom, @from-color @from-pos,@to-color @to-pos); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@from-color', endColorstr='@to-color',GradientType=0 ); /* IE6-8 */
+ }
+.border(){
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+body{
+    background-color:@def-bg-color;
+    font-size: @def-font-size;
+    font-family: @def-font-family;
+    color:@def-color;
+    width:100%;
+        header{
+            div#header-container{
+                .linear-gradient(@nav-from-color,0,@def-bg-color,100%);
+                display:inline-block;
+                width:100%;
+                div#logo-container{
+                    position:relative;
+                    display:inline-block;
+                    h1{
+                        margin-top: 15px;
+                        margin-left: 15px;
+                        a{
+                            img{
+                                width: 195px;
+                            }
+                        }
+                    }
+                }
+            }
+            div#reg-form-container{
+                position:relative;
+                float:right;
+                display:inline-block;
+                margin-top: 15px;
+                margin-right: 42px;
+                form{
+                    div{
+                        margin:3px;
+                        label{
+                            font-size:15px;
+                            margin-bottom:5px;
+                        }
+                        input{
+                            width:100px;
+                            height:20px;
+                            .border();
+                            background-color: @def-bg-color;
+                            margin: 3px;   
+                        }
+                    }
+                    button#btn-register{
+                            width: 80px;
+                            height: 25px;
+                            background-color: #d191fc;
+                            color: white;
+                            font-size:15px;
+                            font-weight: bold; 
+                            vertical-align:top;
+                            .border();
+                    }
+                }
+                }
+            nav{
+                line-height: 29px;
+                font-size: @def-font-size;
+                font-family:@def-font-family;
+                width:80%;
+                position: relative;
+                top: 3px;
+                margin-bottom:20px;
+                ul#main-nav-list{
+                    list-style-type:none;
+                    .border();
+                    margin-left:20px;
+                    li{
+                        list-style-type: none;
+                        display: inline-block;
+                        margin-left:10px;
+                        a {
+                            text-decoration: none;
+                            color: @def-color;
+                        }
+                        & > ul{
+                            display: none;
+                        }
+                        &:hover > ul{
+                            display: block;
+                            position: absolute;
+                            background-color: #9215F2;
+                            padding:0;
+                            text-decoration:underline;
+                            margin:0;
+
+                        & li {
+                            display: block;
+                            position: relative;
+                            border-bottom: 1px solid @def-bg-color;
+                        &:last-child{
+                            border-bottom: none;
+                            }
+                        &a{
+                            
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+            }
+        
+        section{
+            display:inline-block;
+            float:left;
+            width:75%;
+            margin-bottom:20px;
+            article{
+                font-size:@def-font-size;
+                font-family:@def-font-family;
+                text-align: left;
+                .border();
+                float:left;
+                padding:20px;
+                margin:10px 10px 10px 20px;
+                header{
+                    margin:20px 0 10px 10px; 
+                }
+                footer{
+                    p{
+                        text-align:right;
+                        a{
+                            text-decoration:none;
+                            color:@nav-from-color;
+                            &:hover{
+                                text-decoration:underline;
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+        aside{
+            display:inline-block;
+            float:left;
+            width:23%;
+            margin-left:20px;
+          a{
+            color: @def-color;
+            text-decoration: none;
+           }
+          ul{
+            margin-top:10px;
+            list-style-type: none;
+            padding: 10px 0 0 0;
+            height:100px;
+          li{
+            .border();
+            margin: 10px 0;
+            padding: 0 15px;
+            &:first-child{
+                margin-top: 10px;
+                 }
+            h2{
+                margin-bottom: 0;
+              }
+             p{
+                margin: 10px 0 15px 5px;
+                  a{
+                      color: #808080;
+                      &:hover{
+                      text-decoration:underline;
+                      }
+                  }
+                  em{
+                      color:#808080;
+                  }
+                }
+
+              ul{
+                margin-top: 0;
+                li{
+                    border: none;
+                    margin: 5px 20px;
+                    padding: 0 25px;
+                    background: url("images/li-dot.png")no-repeat 0 50%;
+
+                      &:last-child{
+                        margin-bottom: 20px;
+                      }
+                  }
+              }
+          }
+      }
+  }
+        footer{
+            width:100%;
+            height:40px;
+            bottom:0;
+            clear:both;
+            p{
+                text-align:center;
+            }
+        }
+

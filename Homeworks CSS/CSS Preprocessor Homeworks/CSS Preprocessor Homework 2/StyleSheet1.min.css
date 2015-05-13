@@ -1,0 +1,1 @@
+﻿body,div,ul,img{margin:0;padding:0}img{width:80px;height:80px}#wrapper{width:960px;margin-top:15px;margin-left:25px}#wrapper ul{list-style-type:none}#wrapper ul li{position:relative;display:inline-block}#wrapper ul li:hover img{display:block;position:fixed;top:0;width:500px;height:500px;z-index:1}
